@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_rv_item"
+    android:fontFamily="@font/poppins_semibold"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:layout_margin="6dp"
+    android:text="Genre"
+    android:paddingVertical="10dp"
+    android:paddingHorizontal="10dp"
+    android:textColor="@color/black"
+    android:textSize="12sp">
+
+</TextView>
