@@ -12,7 +12,8 @@ An Android app which let us browse information related to music like genres, alb
  #### - Use of Navigation Components as the application is based on single activity multiple fragments
 
 ## Issues 
- #### - Was facing issues with last.fm api's get methods so i was not able to follow one best practice. In retrofit + mvvm pattern there must be a single base URL and accordingly we specify parameters in get() method of retrofit but it was not working in case of last.fm api.Also API KEY should go as a Header but it was not working so i have hardcoded the URLs.
+ #### - Was facing issues with last.fm api's get methods so i was not able to follow one best practice. In retrofit + mvvm pattern there must be a single base URL and accordingly we specify parameters in get() method of retrofit but it was not working in case of last.fm api.
+ #### - Also API KEY should go as a Header but it was not working so i have hardcoded the URLs.
  
 ## Assumptions Made 
  #### - The app should be completely online which means not using room DB and saving anything locally. This was not clearly mentioned in the assignment however its a bad practice to always make api calls
